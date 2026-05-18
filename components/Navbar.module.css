@@ -1,0 +1,106 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: var(--transition);
+  padding: 1.5rem 0;
+}
+
+.header.scrolled {
+  padding: 1rem 0;
+  background: rgba(253, 251, 247, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  letter-spacing: -0.5px;
+}
+
+.logo span {
+  color: var(--color-primary);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+.navLinks a:not(.phoneLink):not(:last-child) {
+  position: relative;
+  transition: var(--transition);
+}
+
+.navLinks a:not(.phoneLink):not(:last-child)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.navLinks a:not(.phoneLink):not(:last-child):hover::after {
+  width: 100%;
+}
+
+.phoneLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.mobileToggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--color-text-main);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+@media (max-width: 992px) {
+  .mobileToggle {
+    display: block;
+  }
+  
+  .navLinks {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(253, 251, 247, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.4s ease-in-out;
+  }
+  
+  .navLinks.mobileOpen {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

@@ -1,0 +1,121 @@
+.footer {
+  background: rgba(253, 251, 247, 0.4);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-top: 1px solid var(--glass-border);
+  padding-top: 5rem;
+  margin-top: 4rem;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.footerBrand .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  margin-bottom: 1rem;
+}
+
+.footerBrand .logo span {
+  color: var(--color-primary);
+}
+
+.brandDesc {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.socialLinks a:hover {
+  background: var(--color-primary);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.footerLinks h3, .footerContact h3, .footerHours h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-main);
+}
+
+.footerLinks ul, .footerContact ul, .footerHours ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerLinks a {
+  color: var(--color-text-muted);
+  transition: var(--transition);
+}
+
+.footerLinks a:hover {
+  color: var(--color-primary);
+}
+
+.footerContact li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  color: var(--color-text-muted);
+}
+
+.footerContact .icon {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.footerHours li {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-text-muted);
+  border-bottom: 1px dashed var(--glass-border);
+  padding-bottom: 0.5rem;
+}
+
+.footerBottom {
+  background: rgba(93, 64, 55, 0.05);
+  padding: 1.5rem 0;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+  .footerGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
