@@ -29,9 +29,9 @@ export default function Navbar() {
           <Link href="#reviews" onClick={() => setMobileMenuOpen(false)}>Reviews</Link>
           <Link href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
           
-          <a href="tel:8921838085" className={styles.phoneLink}>
+          <a href="tel:+918921838085" className={styles.phoneLink}>
             <Phone size={18} />
-            8921838085
+            +91 8921838085
           </a>
           
           <Link href="#booking" className="glass-button glass-button-primary" onClick={() => setMobileMenuOpen(false)}>

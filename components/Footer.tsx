@@ -38,7 +38,7 @@ export default function Footer() {
             </li>
             <li>
               <Phone size={18} className={styles.icon} />
-              <a href="tel:8921838085">8921838085</a>
+              <a href="tel:+918921838085">+91 8921838085</a>
             </li>
             <li>
               <Mail size={18} className={styles.icon} />

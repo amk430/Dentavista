@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './WhatsAppButton.module.css';
 
 export default function WhatsAppButton() {
-  const phoneNumber = "8921838085";
+  const phoneNumber = "+918921838085";
   const message = "Hello DentaVista, I would like to know more about your services.";
   
   const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
