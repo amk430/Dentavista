@@ -25,12 +25,13 @@ export default function Navbar() {
         
         <nav className={`${styles.navLinks} ${mobileMenuOpen ? styles.mobileOpen : ''}`}>
           <Link href="#treatments" onClick={() => setMobileMenuOpen(false)}>Treatments</Link>
+          <Link href="#team" onClick={() => setMobileMenuOpen(false)}>Team</Link>
           <Link href="#reviews" onClick={() => setMobileMenuOpen(false)}>Reviews</Link>
           <Link href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
           
-          <a href="tel:+1234567890" className={styles.phoneLink}>
+          <a href="tel:8921838085" className={styles.phoneLink}>
             <Phone size={18} />
-            +1 234 567 890
+            8921838085
           </a>
           
           <Link href="#booking" className="glass-button glass-button-primary" onClick={() => setMobileMenuOpen(false)}>

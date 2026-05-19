@@ -34,15 +34,15 @@ export default function Footer() {
           <ul>
             <li>
               <MapPin size={18} className={styles.icon} />
-              <span>123 Dental Avenue, Medical District, NY 10001</span>
+              <span>OPP Anthatta school, Arangadath koyilandy</span>
             </li>
             <li>
               <Phone size={18} className={styles.icon} />
-              <a href="tel:+1234567890">+1 234 567 890</a>
+              <a href="tel:8921838085">8921838085</a>
             </li>
             <li>
               <Mail size={18} className={styles.icon} />
-              <a href="mailto:contact@dentavista.demo">contact@dentavista.demo</a>
+              <a href="mailto:dhrudhavinod@gmail.com">dhrudhavinod@gmail.com</a>
             </li>
           </ul>
         </div>

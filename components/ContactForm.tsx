@@ -67,7 +67,7 @@ export default function ContactForm() {
                 <Phone className={styles.icon} />
                 <div>
                   <h4>Call Us</h4>
-                  <p>+1 (555) 123-4567</p>
+                  <p>8921838085</p>
                 </div>
               </div>
               
@@ -75,7 +75,7 @@ export default function ContactForm() {
                 <Mail className={styles.icon} />
                 <div>
                   <h4>Email Us</h4>
-                  <p>hello@dentavista.demo</p>
+                  <p>dhrudhavinod@gmail.com</p>
                 </div>
               </div>
             </div>

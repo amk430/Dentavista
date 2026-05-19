@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import Treatments from '../components/Treatments';
+import Doctors from '../components/Doctors';
 import Reviews from '../components/Reviews';
 import ContactForm from '../components/ContactForm';
 
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <Hero />
       <Treatments />
+      <Doctors />
       <Reviews />
       <ContactForm />
     </>
