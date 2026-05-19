@@ -26,8 +26,7 @@ export default function ContactForm() {
     setStatus('submitting');
     
     try {
-      // REPLACE 'YOUR_FORMSPREE_ID' with your actual Formspree endpoint ID (e.g., 'xeqqjqwq')
-      const response = await fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
+      const response = await fetch('https://formspree.io/f/xlgvdvqo', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -67,7 +66,7 @@ export default function ContactForm() {
                 <Phone className={styles.icon} />
                 <div>
                   <h4>Call Us</h4>
-                  <p>8921838085</p>
+                  <p>+91 8921838085</p>
                 </div>
               </div>
               
@@ -127,7 +126,7 @@ export default function ContactForm() {
                       id="phone" 
                       name="phone" 
                       className="glass-input" 
-                      placeholder="(555) 000-0000"
+                      placeholder="+91 00000 00000"
                       value={formData.phone}
                       onChange={handleChange}
                       required 
