@@ -59,7 +59,7 @@ export default function Reviews() {
 
         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
           <a 
-            href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID" 
+            href="https://www.google.com/search?sca_esv=906222ec07a20c55&sxsrf=ANbL-n53-9SeDLNr7NkEH85Fc_COj1To-w:1779256344453&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOa-YGtETxlBgyHo8Wqot3Ljx43Wtl7UbcaUEah3yc6TU6lCJ1liU_AMq98sI6PChkDVd2q7R2U8LdtQvk0NMfp-CHlSSRC18O4HZiLIFrvI4cGac3w%3D%3D&q=DENTA+VISTA+SMILE+LOUNGE+Reviews&sa=X&ved=2ahUKEwiOkICzlseUAxWgVWwGHUwEJlUQ0bkNegQILxAF&biw=1536&bih=730&dpr=1.25" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="glass-button"
