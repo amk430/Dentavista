@@ -14,7 +14,7 @@ export default function Footer() {
           </p>
           <div className={styles.socialLinks}>
             <a href="#" aria-label="Facebook"><Facebook size={20} /></a>
-            <a href="#" aria-label="Instagram"><Instagram size={20} /></a>
+            <a href="https://share.google/ZbUtgd6QscVH15UHw" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Instagram size={20} /></a>
             <a href="#" aria-label="Twitter"><Twitter size={20} /></a>
           </div>
         </div>
@@ -51,16 +51,12 @@ export default function Footer() {
           <h3>Opening Hours</h3>
           <ul>
             <li>
-              <span>Mon - Fri:</span>
-              <span>8:00 AM - 7:00 PM</span>
-            </li>
-            <li>
-              <span>Saturday:</span>
-              <span>9:00 AM - 4:00 PM</span>
+              <span>Mon - Sat:</span>
+              <span>10:00 AM - 6:30 PM</span>
             </li>
             <li>
               <span>Sunday:</span>
-              <span>Closed</span>
+              <span>Holiday (Closed)</span>
             </li>
           </ul>
         </div>

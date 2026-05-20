@@ -5,23 +5,9 @@ import styles from './Reviews.module.css';
 const reviews = [
   {
     id: 1,
-    name: 'Sarah Johnson',
+    name: 'Surya chinnu',
     role: 'Patient',
-    content: 'The best dental experience I\'ve ever had. The staff is so welcoming, and the clinic feels like a spa. My teeth whitening results are amazing!',
-    rating: 5
-  },
-  {
-    id: 2,
-    name: 'Michael Davis',
-    role: 'Patient',
-    content: 'I was always afraid of dentists, but Dr. Smith and the team at DentaVista changed that. Painless root canal and great aftercare.',
-    rating: 5
-  },
-  {
-    id: 3,
-    name: 'Emily Chen',
-    role: 'Patient',
-    content: 'Got my Invisalign here. The process was smooth, and the flexible payment options really helped. Highly recommend this clinic.',
+    content: 'Thank u dr.Sneha u make my smile more beautiful, and all the staffs are more friendly. i really loved all of them. once again thank u so much❤️',
     rating: 5
   }
 ];
