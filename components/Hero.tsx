@@ -59,8 +59,10 @@ export default function Hero() {
               src="/hero-bg.png" 
               alt="Modern Dental Clinic" 
               fill
+              sizes="(max-width: 992px) 100vw, 50vw"
               style={{ objectFit: 'cover' }}
               priority
+              unoptimized
             />
           </div>
         </div>
